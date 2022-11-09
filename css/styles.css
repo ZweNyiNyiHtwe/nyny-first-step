@@ -55,6 +55,8 @@ p{
       background-color: lightblue;
     }
   }*/
+
+/*Arrow*/
 a{
     text-decoration: 0;
    
@@ -76,5 +78,31 @@ a{
 @media screen and(min-width:1024px){
     .link-arrow{
         font-size: 1.6rem;
+    }
+}
+/*Badge*/
+.badge{
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.badge--primary{
+    color: #fff;
+    background-color: var(--color-primary)
+}
+.badge--secondary{
+    background-color: var(--color-secondary);
+}
+.badge--small{
+    font-size: 1.6rem;
+}
+@media screen and(min-width:1024px){
+    .badge{
+        font-size: 1.5rem;
+    }
+    .badge--small{
+        font-size: 1.2rem;
     }
 }
