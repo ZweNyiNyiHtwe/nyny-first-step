@@ -27,6 +27,7 @@
     font-size: 2.4rem;
     line-height: 1.5;
     color: var(--color-body);
+    
   }
   
   h1,
@@ -294,6 +295,7 @@
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;
     overflow: hidden;
+    scale: 1;
   }
   
   .card__header,
@@ -853,3 +855,6 @@ footer .collapsible__heading{
     font-size: 1.6rem;
   }
 }
+
+
+
